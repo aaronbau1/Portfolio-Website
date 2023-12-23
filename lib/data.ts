@@ -1,7 +1,7 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+// import { CgWorkAlt } from "react-icons/cg";
+// import { FaReact } from "react-icons/fa";
+// import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
@@ -39,7 +39,7 @@ export const experiencesData = [
     location: "Various Locations",
     description:
       "I worked as a Mechanical Engineer for 5 years across 3 internships and 1 job",
-    icon: React.createElement(CgWorkAlt),
+    // icon: React.createElement(CgWorkAlt),
     date: "2016 - 2021",
   },
   {
@@ -47,7 +47,7 @@ export const experiencesData = [
     location: "remote",
     description:
       "Learned full-stack development (Ruby, SQL, JS, HTML, CSS) at Launch School for a year",
-    icon: React.createElement(LuGraduationCap),
+    // icon: React.createElement(LuGraduationCap),
     date: "2019",
   },
   {
@@ -55,7 +55,7 @@ export const experiencesData = [
     location: "Williamston, MI",
     description:
       "I'm currently doing independent freelance full-stack developer. My core stack includes React, Next.js, TypeScript, Tailwind, Prisma and PostgreSQL. I'm looking for full-time opportunities.",
-    icon: React.createElement(FaReact),
+    // icon: React.createElement(FaReact),
     date: "2023 - present",
   },
 ] as const;
