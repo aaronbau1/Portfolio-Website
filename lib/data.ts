@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+// import corpcommentImg from "@/public/corpcomment.png";
+// import rmtdevImg from "@/public/rmtdev.png";
+// import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -60,29 +60,29 @@ export const experiencesData = [
   },
 ] as const;
 
-export const projectsData = [
-  {
-    title: "DocBuddy",
-    description:
-      "A SaaS platform where users can upload PDFs and ask questions to them using an AI chatbot.",
-    tags: ["React", "Next.js", "MySQL", "Tailwind", "Prisma", 'KindeAuth'],
-    imageUrl: corpcommentImg,
-  },
-  {
-    title: "WordWhip",
-    description:
-      "A two-player competitive word game. Try to create a 5 letter word while stopping your opponent from doing the same",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "PostgreSQL", "Clerk"],
-    imageUrl: rmtdevImg,
-  },
-  {
-    title: "Promptopia",
-    description:
-      "A social web application used to create and share AI prompts",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Next-Auth"],
-    imageUrl: wordanalyticsImg,
-  },
-] as const;
+// export const projectsData = [
+//   {
+//     title: "DocBuddy",
+//     description:
+//       "A SaaS platform where users can upload PDFs and ask questions to them using an AI chatbot.",
+//     tags: ["React", "Next.js", "MySQL", "Tailwind", "Prisma", 'KindeAuth'],
+//     imageUrl: corpcommentImg,
+//   },
+//   {
+//     title: "WordWhip",
+//     description:
+//       "A two-player competitive word game. Try to create a 5 letter word while stopping your opponent from doing the same",
+//     tags: ["React", "TypeScript", "Next.js", "Tailwind", "PostgreSQL", "Clerk"],
+//     imageUrl: rmtdevImg,
+//   },
+//   {
+//     title: "Promptopia",
+//     description:
+//       "A social web application used to create and share AI prompts",
+//     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Next-Auth"],
+//     imageUrl: wordanalyticsImg,
+//   },
+// ] as const;
 
 export const skillsData = {
   langFrame: [
