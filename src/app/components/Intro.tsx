@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Intro = () => {
   return (
-    <section>
+    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -30,8 +30,12 @@ const Intro = () => {
         </div>
       </div>
 
-      <p>
-        <span className="font-bold">Hello! I&apos;m Aaron.</span> I'm a{" "}
+      <motion.p className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        initial={{ opacity: 0, y: 100}}
+        animate={{ opacity: 1, y: 0}}
+      >
+        
+        {/* <span className="font-bold">Hello! I&apos;m Aaron.</span> I&apos;m a{" "}
         <span className="font-bold">full-stack developer</span> looking for a{" "}
         <span className="font-bold">full-time position</span>. I have{" "}
         <span className="font-bold">10 years of coding experience</span>, 6 spent
@@ -39,9 +43,14 @@ const Intro = () => {
         in which I built multiple full-stack applications. I am an{" "}
         <span className="italic">optimistic</span> and <span className="italic">diligent</span>{" "}
         team-member that would be a positive addition to your work environment.{" "}
+        <span className="font-bold">Let&apos;s Connect!</span> */}
+        <span className="font-bold">Hello! I&apos;m Aaron.</span> I&apos;m a{" "}
+        <span className="font-bold">full-stack developer</span> looking for a{" "}
+        <span className="font-bold">full-time position</span>. I have{" "}
+        <span className="font-bold">10 years</span> of professional coding experience. {" "}
         <span className="font-bold">Let&apos;s Connect!</span>
 
-      </p>
+      </motion.p>
     </section>
   )
 }
