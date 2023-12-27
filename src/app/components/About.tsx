@@ -20,40 +20,16 @@ const About = () => {
         No other endeavor gives me the same sense of fulfillment and pride that coding does.
       </p>
       <p className="mb-3">
-        For the last 15 months, I was enrolled in Launch School's full-stack web development curriculum and learned 
-        Ruby, JavaScript, and PostgreSQL. From there, I have built several full-stack
-        projects using Next.js, React.js, Node.js, and MongoDB. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
+        For the last 15 months, I was enrolled in Launch School's full-stack web development curriculum and learned{" "} 
+        <span className="font-medium">Ruby, JavaScript, and PostgreSQL</span>. From there, I have built several full-stack
+        projects using <span className="font-medium">Next.js, React.js, Node.js, and MongoDB</span>. I am always striving to
+        learn new technologies. Currently, I am looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
       </p>
       <p className="mb-3">
         Outside of my work, I am very active and run or lift every day. I'm also a
-        volunteer coach for track and field at a local high school
-      </p>
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        volunteer track and field coach at a local high school.
       </p>
     </motion.section>
   )
