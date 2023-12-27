@@ -76,6 +76,12 @@ export const projectsData = [
     imageUrl: rmtdevImg,
   },
   {
+    title: "CarHub",
+    description: 'A static homepage that allows users to search through a vehicle API database to learn information about specific cars',
+    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
+    imageUrl: rmtdevImg,
+  },
+  {
     title: "Promptopia",
     description:
       "A social web application used to create and share AI prompts",
