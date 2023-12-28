@@ -71,20 +71,20 @@ export const projectsData = [
   {
     title: "WordWhip",
     description:
-      "A two-player competitive word game. Try to create a 5 letter word while stopping your opponent from doing the same",
+      "A two-player competitive word game. Try to create a 5 letter word while stopping your opponent from doing the same.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "PostgreSQL", "Clerk"],
     imageUrl: rmtdevImg,
   },
   {
     title: "CarHub",
-    description: 'A static homepage that allows users to search through a vehicle API database to learn information about specific cars',
+    description: 'A static homepage that allows users to search through a vehicle API database to learn information about specific cars.',
     tags: ["React", "TypeScript", "Next.js", "Tailwind"],
     imageUrl: rmtdevImg,
   },
   {
     title: "Promptopia",
     description:
-      "A social web application used to create and share AI prompts",
+      "A social web application used to create and share AI prompts.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Next-Auth"],
     imageUrl: wordanalyticsImg,
   },
