@@ -47,10 +47,10 @@ const Intro = () => {
         <span className="italic">optimistic</span> and <span className="italic">diligent</span>{" "}
         team-member that would be a positive addition to your work environment.{" "}
         <span className="font-bold">Let&apos;s Connect!</span> */}
-        <span className="font-bold">Hello! I&apos;m Aaron.</span> I&apos;m a{" "}
+        <span className="font-bold">Hello! I&apos;m Aaron,</span> a{" "}
         <span className="font-bold">full-stack developer</span> looking for a{" "}
         <span className="font-bold">full-time position</span>. I have{" "}
-        <span className="font-bold">10 years</span> of coding experience. {" "}
+        <span className="font-bold">6 years</span> of coding experience. {" "}
         <span className="font-bold">Let&apos;s Connect!</span>
 
       </motion.h1>
