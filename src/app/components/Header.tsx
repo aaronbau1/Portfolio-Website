@@ -3,7 +3,6 @@
 import { motion } from 'framer-motion';
 import { links } from '../../../lib/data';
 import Link from 'next/link';
-import { useContext, useState } from 'react';
 import clsx from 'clsx';
 import { ActiveSectionContext, useActiveSectionContext } from '../context/active-section-context';
 

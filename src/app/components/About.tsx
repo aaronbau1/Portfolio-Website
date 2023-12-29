@@ -8,7 +8,9 @@ import { useEffect } from "react";
 
 const About = () => {
   
-  const {ref, inView} = useInView();
+  const {ref, inView} = useInView({
+    threshold: 0.75,
+  });
   const { setActiveSection } = useActiveSectionContext();
 
   useEffect(() => {
