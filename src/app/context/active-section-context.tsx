@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, createContext, useContext } from "react"
-import { links } from "../../../lib/data";
+import { links } from "@/lib/data";
 import { create } from "domain";
 
 type SectionName = typeof links[number]["name"];

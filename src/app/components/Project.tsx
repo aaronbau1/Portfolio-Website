@@ -2,7 +2,7 @@
 
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
-import { projectsData } from "../../../lib/data";
+import { projectsData } from "@/lib/data";
 import Image from "next/image"
 
 type ProjectProps = (typeof projectsData)[number];
