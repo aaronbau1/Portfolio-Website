@@ -11,13 +11,13 @@ const About = () => {
   const {ref, inView} = useInView({
     threshold: 0.75,
   });
-  const { setActiveSection } = useActiveSectionContext();
+  const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
 
   useEffect(() => {
-    if (inView) {
+    if (inView && Date.now() - timeOfLastClick > 1000) {
       setActiveSection('About');
     }
-  }, [inView, setActiveSection])
+  }, [inView, setActiveSection, timeOfLastClick]);
 
   return (
     <motion.section className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
