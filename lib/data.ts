@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import { SkillsData } from "./types";
 
 export const links = [
   {
@@ -90,7 +91,7 @@ export const projectsData = [
   },
 ] as const;
 
-export const skillsData = {
+export const skillsData:SkillsData = {
   langFrame: [
     "HTML",
     "CSS",
@@ -113,8 +114,8 @@ export const skillsData = {
     
   ],
   concepts: [
-    "OOP",
     "Data Structures and Algorithms",
+    "OOP",
     "TDD",
     "Unit Testing",
     "REST APIs",
