@@ -1,9 +1,29 @@
+"use client"
+
 import { FaPaperPlane } from "react-icons/fa"
 import SectionHeading from "./Section-Heading"
+import { motion } from "framer-motion"
+import { useSectionInView } from "@/lib/hooks"
 
 const Contact = () => {
+
+  const { ref } = useSectionInView('Contact');
+
   return (
-    <section id="contact" className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center">
+    <motion.section ref={ref} id="contact" className="mb-20 sm:mb-28 w-[min(100%,38rem)] text-center"
+      initial={{
+        opacity: 0,
+      }}
+      whileInView={{
+        opacity: 1,
+      }}
+      transition={{
+        duration:1
+      }}
+      viewport={{
+        once:true
+      }}
+    >
       <SectionHeading>Contact Me</SectionHeading>
       <p className="text-gray-700 -mt-6">
         Please contact me directly at{' '} 
@@ -22,7 +42,7 @@ const Contact = () => {
           />
         </button>
       </form>
-    </section>
+    </motion.section>
   )
 }
 
