@@ -49,7 +49,7 @@ export const experiencesData = [
     description:
       "Learned full-stack development (Ruby, SQL, JS, HTML, CSS) at Launch School for a year",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022-2023",
   },
   {
     title: "Full-Stack Developer",
