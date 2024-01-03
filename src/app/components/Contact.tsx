@@ -50,7 +50,7 @@ const Contact = () => {
           placeholder="Your message"
           name='message'
           required
-          maxLength={500}
+          maxLength={5000}
         />
         <button type='submit' className="group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-gray-900 text-white 
           rounded-full outline-none transition-all hover:bg-gray-950 focus:scale-110 hover:scale-110 active:scale-105">
