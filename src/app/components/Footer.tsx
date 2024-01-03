@@ -1,13 +1,12 @@
 const Footer = () => {
   return (
-    <footer>
-      <small>
+    <footer className="mb-10 px-4 text-center text-gray-500">
+      <small className="mb-2 text-xs block">
         &copy; 2024 Baumgarten. All rights reserved.
       </small>
-      <p>
-      {/* <span>This website was</span> */}
-        <span>This website was</span> built with React, Next.js,
-        TypeScript, Tailwind CSS, Framer Motion, React Email & Resend. 
+      <p className="text-xs">
+        <span className="font-semibold">About this website: </span>{' '} 
+        built with React, Next.js, TypeScript, Tailwind CSS, Framer Motion, React Email & Resend. 
         Hosted on Vercel.
       </p>
     </footer>
