@@ -1,10 +1,10 @@
 "use client"
 
-import { FaPaperPlane } from "react-icons/fa"
 import SectionHeading from "./Section-Heading"
 import { motion } from "framer-motion"
 import { useSectionInView } from "@/lib/hooks"
 import { sendEmail } from "@/actions/sendEmail"
+import SubmitButton from "./Submit-Button"
 
 const Contact = () => {
 
@@ -52,14 +52,7 @@ const Contact = () => {
           required
           maxLength={5000}
         />
-        <button type='submit' className="group flex items-center justify-center gap-2 h-[3rem] w-[8rem] bg-gray-900 text-white 
-          rounded-full outline-none transition-all hover:bg-gray-950 focus:scale-110 hover:scale-110 active:scale-105">
-          Submit{' '}
-          <FaPaperPlane className='text-xs opacity-70 transition-all
-            group-hover:translate-x-1
-            group-hover:-translate-y-1'
-          />
-        </button>
+        <SubmitButton />
       </form>
     </motion.section>
   )
