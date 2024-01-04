@@ -31,7 +31,7 @@ const Project = ({ title, description, tags, imageUrl }: ProjectProps) => {
         hover:bg-gray-200 transition group-even:pl-8"
       >
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 
-        sm:max-w-[50%] flex flex-col h-full group-even:ml-[18rem]">
+        max-w-[50%] flex flex-col h-full group-even:ml-[18rem]">
           <h3 className="text-2xl font-semibold">
             {title}
           </h3>
@@ -63,9 +63,9 @@ const Project = ({ title, description, tags, imageUrl }: ProjectProps) => {
           group-even:group-hover:scale-[1.04]
           group-even:group-hover:translate-x-3
           group-even:group-hover:translate-y-3
-          group-even:group-hover:rotate-2
-          "
+          group-even:group-hover:rotate-2"
         />
+
     </section>
   </motion.div>
   )
