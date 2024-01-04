@@ -45,7 +45,7 @@ export const experiencesData = [
   },
   {
     title: "Completed full-stack web development bootcamp",
-    location: "remote",
+    location: "Remote",
     description:
       "Learned full-stack development (Ruby, SQL, JS, HTML, CSS) at Launch School for a year",
     icon: React.createElement(LuGraduationCap),
