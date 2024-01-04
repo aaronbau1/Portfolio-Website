@@ -29,7 +29,7 @@ const Skills = () => {
         <div className="flex justify-center">
           {Object.keys(skillsData).map((key, index) => {
             return (
-              <div key={index} className="w-full sm:w-1/3 p-4">
+              <div key={index} className="w-full sm:w-1/3 sm:p-4 p-1">
                 <h3 className="mb-4 text-lg font-semibold">{skillDataToHeading(key)}</h3> 
                 <ul className="flex justify-center flex-wrap">
                   {skillsData[key].map((skill, index) => {
