@@ -37,7 +37,7 @@ const Skills = () => {
                       <motion.li 
                         variants={fadeInAnimationVariants}
                         key={index}
-                        className="bg-white borderBlack rounded-xl px-4 py-3"
+                        className="bg-white borderBlack rounded-xl px-4 py-3 dark:bg-white/10 dark-text-white/80"
                         initial='initial'
                         whileInView='animate'
                         viewport={{

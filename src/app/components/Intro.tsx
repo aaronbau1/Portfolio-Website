@@ -82,23 +82,23 @@ const Intro = () => {
 
         <a className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full 
         outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer
-        borderBlack'
+        borderBlack dark:bg-white/10'
           href='/resume.pdf' 
           download
         >
           Download Resume <HiDownload className='opacity-60 group-hover:translate-y-1 transition'/>
         </a>
 
-        <a className='group bg-white p-4 flex items-center gap-2 rounded-full 
-        outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer
-        borderBlack'
+        <a className='group bg-white p-4 flex items-center gap-2 rounded-full text-gray-950
+        outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer
+        borderBlack dark:bg-white/10 dark:text-white/90'
           href='https://www.linkedin.com/in/aaron-baumgarten-8492b215b' target='_blank'
         >
           <BsLinkedin className='opacity-70'/>
         </a>
         <a className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem]
-        outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer
-        borderBlack'
+        outline-none focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer
+        borderBlack dark:bg-white/10 dark:text-white/70'
           href='https://github.com/aaronbau1' target='_blank'
         >
           <FaGithubSquare />
