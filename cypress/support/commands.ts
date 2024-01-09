@@ -9,8 +9,12 @@ declare namespace Cypress {
 }
 
 Cypress.Commands.add('scrollToSectionAndMakeActive', (sectionId: string, linkText: string) => {
+  //test that page scrolls to correct section
   cy.get(`#${sectionId}`).scrollIntoView().should('be.visible');
+
+  //test active section css changes
   cy.get('nav').contains(linkText).find('span.bg-gray-100').should('exist');
+  cy.get('nav').contains(linkText).should('have.class', 'text-gray-950').should('not.have.class', 'text-gray-500'); 
 });
 
 Cypress.Commands.add('clickNavLinkAndAssertHref', (linkText: string, expectedHref: string) => {
