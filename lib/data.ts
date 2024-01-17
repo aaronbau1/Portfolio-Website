@@ -95,7 +95,7 @@ export const projectsData = [
       "A social web application used to create and share AI prompts.",
     tags: ["React", "Next.js", "MongoDB", "Tailwind", "Next-Auth"],
     imageUrl: promptopiaImg,
-    projectUrl: 'https://github.com.aaronbau1',
+    projectUrl: 'https://github.com/aaronbau1',
     dataTest: 'project3',
   },
 ] as const;
