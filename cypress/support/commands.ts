@@ -5,6 +5,7 @@ declare namespace Cypress {
   interface Chainable<Subject = any> {
     scrollToSectionAndMakeActive(sectionId: string, linkText: string): Chainable<Subject>;
     clickNavLinkAndAssertHref(linkText: string, expectedHref: string):Chainable<Subject>;
+    getDataTest(dataTestSelector: string):Chainable<Subject>;
   }
 }
 
@@ -21,3 +22,7 @@ Cypress.Commands.add('clickNavLinkAndAssertHref', (linkText: string, expectedHre
   cy.window().scrollTo('top')
   cy.get('nav').contains(linkText).click().should('have.attr', 'href', expectedHref);
 });
+
+Cypress.Commands.add('getDataTest', (dataTestSelector) => {
+  return cy.get(`[data-test="${dataTestSelector}"]`)
+})

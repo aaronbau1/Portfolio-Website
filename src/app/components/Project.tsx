@@ -55,8 +55,8 @@ const Project = ({ title, description, tags, imageUrl, projectUrl, dataTest }: P
           
           <Image src={imageUrl} alt={title} quality={95} 
             className="absolute sm:block top-8 -right-[11rem] sm:-right-40 w-[28.25rem] rounded-t-lg shadow-2xl transition
-            group-even:sm:right-[initial] 
-            group-even:sm:-left-40
+            sm:group-even:right-[initial] 
+            sm:group-even:-left-40
             group-even:left-[12rem]
             
             group-hover:scale-[1.04]
