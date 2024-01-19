@@ -64,6 +64,15 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "WordWhip",
+    description:
+      "A word puzzle game. Use your tile to make a 5 letter word before time runs out!",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "PostgreSQL", "Clerk"],
+    imageUrl: wordWhipImg,
+    projectUrl: 'https://wordwhip.vercel.app/',
+    dataTest: 'project1',
+  },
+  {
     title: "DocBuddy",
     description:
       "A SaaS platform where users can upload PDFs and ask questions to them using an AI chatbot.",
@@ -71,15 +80,6 @@ export const projectsData = [
     imageUrl: docBuddyImg,
     projectUrl: 'https://github.com/aaronbau1/DocBuddy',
     dataTest: 'project0',
-  },
-  {
-    title: "WordWhip",
-    description:
-      "A two-player competitive word game. Try to create a 5 letter word while stopping your opponent from doing the same.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "PostgreSQL", "Clerk"],
-    imageUrl: wordWhipImg,
-    projectUrl: 'https://github.com/aaronbau1/WordWhip',
-    dataTest: 'project1',
   },
   {
     title: "CarHub",
