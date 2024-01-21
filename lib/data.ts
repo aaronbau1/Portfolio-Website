@@ -81,23 +81,6 @@ export const projectsData = [
     projectUrl: 'https://github.com/aaronbau1/DocBuddy',
     dataTest: 'project0',
   },
-  {
-    title: "CarHub",
-    description: 'A static homepage that allows users to search through a vehicle API database to learn information about specific cars.',
-    tags: ["React", "TypeScript", "Next.js", "Tailwind"],
-    imageUrl: carHubImg,
-    projectUrl: 'https://github.com/aaronbau1',
-    dataTest: 'project2',
-  },
-  {
-    title: "Promptopia",
-    description:
-      "A social web application used to create and share AI prompts.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Next-Auth"],
-    imageUrl: promptopiaImg,
-    projectUrl: 'https://github.com/aaronbau1',
-    dataTest: 'project3',
-  },
 ] as const;
 
 export const skillsData:SkillsData = {
